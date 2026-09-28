@@ -109,7 +109,7 @@ never, on its own, the answer to a visual, motion or sound question.
 | [05](parts/05-designed-contours-and-marks/PART.md) | From Primitives to Designed Contours and Marks |
 | [06](parts/06-value-first-modelling-form/PART.md) | Value First: Modelling Form Without Mud |
 | [07](parts/07-composition-focus-frame-budget/PART.md) | Composition, Focus, and the Frame Budget |
-| 08 | Print Finish and Native-Resolution Judgment |
+| [08](parts/08-print-finish-native-judgment/PART.md) | Print Finish and Native-Resolution Judgment |
 | 09 | Reference-Led Visual Development and the Hard Frame |
 | 10 | Scene Space: Perspective, Attachment, and Occlusion |
 | 11 | Still Capstone: From Brief to Delivered Procedural Print |
