@@ -29,6 +29,11 @@ point is not to remember the rules but to recognise, from pixels, which rule was
 ramps). Drawing a convincing subject is Part 05's problem. Here the subject is given, so that
 everything you write is plate logic.
 
+**Reference:** [`project/index.html`](project/index.html) is the corrected jellyfish, a
+self-contained still made with the same scaffold and verified with the same tools. It is the
+answer to this Part's exercise, so do not open it until section 7 tells you to. It is a snapshot:
+later Parts never change it.
+
 ---
 
 ## 1. Setup
@@ -811,6 +816,27 @@ set of numbers, used as many times as the plate needs. That is the "usual trap o
 shape per ink and having the knockout miss" that the kit's comment describes.
 </details>
 
+### Compare with the reference
+
+Now open [`project/index.html`](project/index.html). Its ART region holds the supplied block and
+the corrected scene exactly as this lesson gives them. Export it and compare it with yours, with
+the `jellyPath(rng)` check undone:
+
+```sh
+node still.mjs $PART/work/jelly/index.html --at 0 --out $OUT/jelly.png
+node still.mjs $PART/project/index.html    --at 0 --out $OUT/reference.png
+"$FFMPEG" -loglevel error -y -i $OUT/jelly.png -i $OUT/reference.png -filter_complex "blend=all_mode=difference" $OUT/jelly-vs-reference.png
+```
+
+The difference should be black: the same shapes, built from `sr` in the same order, on the same
+plates in the same order. The scene is registered under the same id, `jelly`, so even the
+starvation flecks match. If whole shapes show up instead, find the first plate that differs by
+setting `ONLY` to the same ink in both files, and read the two branches side by side, line by
+line. Differences in comments, spacing or variable names change nothing; a difference in the
+order of a print and a knockout, or in what is built from `sr` before the branches, changes
+pixels. Do not edit the reference; copy anything you want to
+experiment with into `work/`.
+
 ## 8. Inspect the corrected jellyfish
 
 Confirm the contract and export the deliverable, full size and reduced:
@@ -956,7 +982,8 @@ printed solid. Part 10 meets the cases where such sorting goes wrong even there.
 You should have, in `work/`:
 
 - [ ] `jelly/index.html`: three plates, shared shapes built before the branches, every knockout at
-  full coverage except the deliberate glow opening; `verify.mjs --times 0` passes.
+  full coverage except the deliberate glow opening; `verify.mjs --times 0` passes, and its
+  difference image against `project/index.html` is black.
 - [ ] `faults/`: `muddy.html`, `toned.html`, `one-plate.html`, `late-ramp.html` and `seed.html`,
   each with `ONLY = null`.
 - [ ] `NOTES.md`: the ramp-sun answers; predictions and what happened at each step; the
