@@ -1027,5 +1027,3 @@ result depends on what was present before it and what survives after it.**
   a printed ground is drawn live, and the same problem needs a live answer:
   [`docs/motion.md`](../../../../docs/motion.md) says "live passes multiply, so a bright element
   on a printed night must remove the night first", and names the tool, `relight`.
-</content>
-</invoke>
