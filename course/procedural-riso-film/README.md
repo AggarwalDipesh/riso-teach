@@ -105,7 +105,7 @@ never, on its own, the answer to a visual, motion or sound question.
 | [01](parts/01-an-exact-frame/PART.md) | An Exact Frame: Repository Contract and Inspection Harness |
 | [02](parts/02-ink-paper-screen/PART.md) | Ink, Paper, Screen: The Plate Model |
 | [03](parts/03-knockouts-ownership-draw-order/PART.md) | Knockouts, Ownership, and Draw Order |
-| 04 | Pure Time and Stable Randomness |
+| [04](parts/04-pure-time-stable-randomness/PART.md) | Pure Time and Stable Randomness |
 | 05 | From Primitives to Designed Contours and Marks |
 | 06 | Value First: Modelling Form Without Mud |
 | 07 | Composition, Focus, and the Frame Budget |
