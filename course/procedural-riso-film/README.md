@@ -110,7 +110,7 @@ never, on its own, the answer to a visual, motion or sound question.
 | [06](parts/06-value-first-modelling-form/PART.md) | Value First: Modelling Form Without Mud |
 | [07](parts/07-composition-focus-frame-budget/PART.md) | Composition, Focus, and the Frame Budget |
 | [08](parts/08-print-finish-native-judgment/PART.md) | Print Finish and Native-Resolution Judgment |
-| 09 | Reference-Led Visual Development and the Hard Frame |
+| [09](parts/09-reference-led-hard-frame/PART.md) | Reference-Led Visual Development and the Hard Frame |
 | 10 | Scene Space: Perspective, Attachment, and Occlusion |
 | 11 | Still Capstone: From Brief to Delivered Procedural Print |
 | 12 | Time as an Explicit Input |
