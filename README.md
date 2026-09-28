@@ -1,0 +1,175 @@
+# riso-windowseat
+
+Procedural risograph films and prints, each a single `index.html` of Canvas 2D and Web Audio:
+no libraries, fonts, images or network calls. The repo began as the release of **Window Seat**.
+Making it, and the two shorts before it, produced a reusable kit of Claude Code skills, craft
+docs and a render harness. Roost, Held, Nonpareil, Eclosion and Passenger were made with it next,
+and two print series, Cabinet and Sceneries.
+
+![Window Seat, dawn from the viaduct](films/window-seat/poster.png)
+
+## Films
+
+All are 1080 × 1080, 30 fps. MP4s are on the
+[v1.0 release](https://github.com/sevenevesai/riso-windowseat/releases/tag/v1.0). To watch the
+source instead, open any `index.html` in a browser and press play.
+
+| Film | Length | |
+|---|---|---|
+| [Window Seat](films/window-seat/) | 78 s | A night train journey through one window, scored for piano |
+| [Roost](films/roost/) | 70 s | One take of a starling murmuration from sunset to roost, scored for strings |
+| [Held](films/held/) | 70 s | A kite that flies only while something holds its line, scored for found instruments |
+| [Nonpareil](films/nonpareil/) | 70 s | Paper marbling from the first drop to the one print it makes, scored for handpan |
+| [Eclosion](films/eclosion/) | 36 s | A monarch leaves its chrysalis, pumps its wings full and flies, in one take, scored for vibraphone, clarinet and horn |
+| [Passenger](films/passenger/) | 36 s | A butterfly draws itself in the fog on a train window and comes alive at sunrise; a child of Window Seat and [anidoodle](https://github.com/alexgreensh/anidoodle), scored procedurally |
+| [Lumen](films/lumen/) | 28 s | A seed that contains a sun; the first short, in call-and-response form |
+| [Emergence](films/emergence/) | 28 s | Lumen's sibling: how machines learned to listen, as nine worlds |
+
+### Window Seat
+
+A night train journey seen through one fixed window with a glass of water on the sill. Every
+pixel and every sound except the piano is procedural.
+
+| Time | Passage |
+|---|---|
+| 0–19 s | Golden departure from a platform, fields, a red truss bridge, a conifer cutting, a tunnel |
+| 19–38 s | A night city with a canal and a level crossing; another train overtakes, passengers in its windows |
+| 38–57 s | Fireworks over a lake, sleeper hours with star trails, pre-dawn fog |
+| 57–78 s | Dawn from a viaduct, rain streaming back along the glass, a lakeside halt under a rainbow |
+
+The score, "A Light Left in the Window", is an original piano piece in 6/8 whose phrasing follows
+the picture's timeline. The glass of water leans with every acceleration and is the last thing to
+settle.
+
+![Contact sheet of Window Seat's shots](films/window-seat/sheet.jpg)
+
+### Roost
+
+<a href="films/roost/preview.webp" title="Open the larger preview"><img src="films/roost/preview-thumb.webp" width="180" align="right" alt="Roost: the flock over the sun, the falcon strike, starlings pouring past, the roost"></a>
+A murmuration over a marsh in one fixed view. Each starling is a 2–3 px ink dot, so the flock
+is the halftone: where the sheet turns edge-on, the birds pile into dark printed ribbons. A
+falcon stoops through it and the flock pours into the reeds at nightfall. The string score is
+timed from the picture.
+
+<br clear="right">
+
+### Held
+
+<a href="films/held/preview.webp" title="Open the larger preview"><img src="films/held/preview-thumb.webp" width="180" align="right" alt="Held: the kite on the hill, the line parting, the church vane, the sloop's catch"></a>
+A paper kite's line frays and parts at a hillside stake. Loose, it can only tumble; it falls
+across a harbour town, is snagged for a moment by a church weathervane, and over the water its
+line catches on a sloop's forestay, so the kite climbs again, held by the boat sailing into
+dusk. Its tail and loose line are simulated ropes. The score uses CC0 mbira, harp, glockenspiel,
+chimes, strings and flute, with every cue read from the picture's events.
+
+<br clear="right">
+
+### Nonpareil
+
+<a href="films/nonpareil/preview.webp" title="Open the larger preview"><img src="films/nonpareil/preview-thumb.webp" width="180" align="right" alt="Nonpareil: drops landing, the comb crossing, a bullseye pulled into a flower, the sheet peeling back"></a>
+Paper marbling seen straight down into the bath. Drops of colour land on the beat and push each
+other outward; a rake and a fine comb drag them into the nonpareil pattern, and a flower is
+dropped and pulled into the middle. A sheet unrolls across the bath, is peeled back toward the
+lens like a turning page, and lands face up and mirrored beside the emptied tray. The marbling
+is closed-form geometry, so every frame is exact. The drops are the handpan's notes, over a
+slow cello and contrabass line.
+
+<br clear="right">
+
+### Eclosion
+
+<a href="films/eclosion/preview.webp" title="Open the larger preview"><img src="films/eclosion/preview-thumb.webp" width="180" align="right" alt="Eclosion: the case splitting, the butterfly swinging out, the full display, the flight"></a>
+One monarch's first morning, in one continuous macro take. A jade chrysalis clears and splits;
+the butterfly drops out, hangs from the empty shell and pumps its crumpled wings full in six
+slow pulses while its swollen abdomen shrinks. It turns, opens its wings twice and flies, and
+the camera returns to the empty case, framed as the chrysalis was in the first second. The
+wings are a planar 3D model whose pattern was measured from a specimen photograph, layered by
+depth so the body reads right from the side, from behind and in flight. A slow trio in F for
+vibraphone, clarinet and horn shares the picture's clock.
+
+<br clear="right">
+
+### Passenger
+
+<a href="films/passenger/preview.webp" title="Open the larger preview"><img src="films/passenger/preview-thumb.webp" width="180" align="right" alt="Passenger: the drawing in the fog, sunrise and ink, lift-off, the wings opening on the glass"></a>
+A child of this repo and [alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle):
+Window Seat's window and glass of water, and anidoodle's drawing that makes itself and then comes
+alive. Before dawn a butterfly draws itself in the fog on a train window, stroke by stroke in the
+order a finger would. Its clear lines are windows, so lamps slide through the drawing and the dawn
+fills its wings. The sunrise warms it off the glass and the camera pulls back from the pane to the
+seat. It lands on the rim of the glass of water and drinks, and the butterfly-shaped hole it left
+stays in the fog. The score is procedural, from the shared kit: every mark of the drawing is a
+note, and the opening motif is answered as the wings open.
+
+<br clear="right">
+
+## Prints
+
+Still series driven like a film (each integer time is one print) and exported as native
+2160 × 2160 PNGs with `tools/still.mjs`.
+
+**[Cabinet](prints/cabinet/)**: five plates from an imaginary natural-history cabinet (a sectioned
+nautilus, arranged diatoms, a luna moth, a cut agate, a sunflower), each built from its own growth
+geometry and cut as fine line over screened colour.
+
+![Cabinet, plates I–V](prints/cabinet/sheet.jpg)
+
+**[Sceneries](prints/sceneries/)**: a curved viaduct in fog, a cliff village at dusk over its own
+reflection, and a stepped canyon at sunrise.
+
+![Sceneries: viaduct, harbour, canyon](prints/sceneries/sheet.jpg)
+
+## How they're made
+
+I directed each work; Claude Code (Anthropic's coding agent) wrote the code, using the skills,
+rules and docs in this repo. A work is designed in its `FILM.md` or `PRINT.md`, its hardest frame
+is proved first, and then it is inspected as frame strips, 1:1 crops and loudness sheets rendered
+by `tools/`. Every frame is a pure function of time (`seek(t)`), so any moment can be inspected
+exactly and the MP4 cannot drop frames. Each record keeps the design decisions and measurements,
+and lists the work's remaining weaknesses.
+
+## Make your own
+
+```
+git clone https://github.com/sevenevesai/riso-windowseat
+cd riso-windowseat/tools
+npm install && npm run setup && npm test
+```
+
+Then open Claude Code in the repo root and ask, for example:
+
+- "Make a 40 second riso film of a lighthouse keeper's night."
+- "Make a riso poster of a heron on a pier at dusk."
+- "Score this film" or "The rain at 66 s is too loud."
+- "Extend Window Seat with a snowy mountain pass after the lake."
+
+`CLAUDE.md` gives the session the contract and commands. The `riso-film`, `riso-still` and
+`riso-score` skills in `.claude/skills/` carry the workflow and gates. Each skill's `examples.md`
+points to the routines in the shipped films that are worth reusing. A hook warns when an edit
+breaks determinism.
+
+## What's inside
+
+| Path | Contents |
+|---|---|
+| `films/` | The eight films, each with its `FILM.md`; Window Seat, Roost, Held, Nonpareil and Eclosion include sample credits and bank rebuild scripts |
+| `prints/` | Three print series: Cabinet and Sceneries with their `PRINT.md`, and Workings, which donates the print kit new works start from |
+| `docs/` | The craft: brief, visual development, drawing, figures, scene space, motion, live plates, sound, quality bar |
+| `studies/` | Interactive A/B studies of each technique, and the sound kit |
+| `tools/` | Scaffolding, verification, contact sheets, audio analysis and MP4 export ([README](tools/README.md)) |
+| `.claude/` | Skills, the ink-plate rule and the determinism hook |
+
+## License
+
+MIT, see [LICENSE](LICENSE). The piano recordings embedded in Window Seat are Salamander Grand
+Piano V3 by Alexander Holm under CC BY 3.0; see
+[`AUDIO-SOURCES.md`](films/window-seat/AUDIO-SOURCES.md). The string recordings embedded in
+Roost are VSCO 2 Community Edition by Versilian Studios under CC0 1.0; see
+[`AUDIO-SOURCES.md`](films/roost/AUDIO-SOURCES.md). Held's instruments are from Versilian's VCSL
+and VSCO 2, also CC0 1.0; see [`AUDIO-SOURCES.md`](films/held/AUDIO-SOURCES.md). Nonpareil's
+handpan is GAMEDRIX974's HandPan pack on Freesound and its cello and contrabass are from VSCO 2,
+all CC0 1.0; see [`AUDIO-SOURCES.md`](films/nonpareil/AUDIO-SOURCES.md). Eclosion's vibraphone
+(VCSL), clarinet and horn (VSCO 2) are CC0 1.0; see
+[`AUDIO-SOURCES.md`](films/eclosion/AUDIO-SOURCES.md). Its wing geometry is measured from
+"Danaus plexippus MHNT dos.jpg" by Didier Descouens (Wikimedia Commons, CC BY-SA 4.0); see
+[`FILM.md`](films/eclosion/FILM.md).
