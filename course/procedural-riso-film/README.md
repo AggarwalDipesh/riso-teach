@@ -107,7 +107,7 @@ never, on its own, the answer to a visual, motion or sound question.
 | [03](parts/03-knockouts-ownership-draw-order/PART.md) | Knockouts, Ownership, and Draw Order |
 | [04](parts/04-pure-time-stable-randomness/PART.md) | Pure Time and Stable Randomness |
 | [05](parts/05-designed-contours-and-marks/PART.md) | From Primitives to Designed Contours and Marks |
-| 06 | Value First: Modelling Form Without Mud |
+| [06](parts/06-value-first-modelling-form/PART.md) | Value First: Modelling Form Without Mud |
 | 07 | Composition, Focus, and the Frame Budget |
 | 08 | Print Finish and Native-Resolution Judgment |
 | 09 | Reference-Led Visual Development and the Hard Frame |
