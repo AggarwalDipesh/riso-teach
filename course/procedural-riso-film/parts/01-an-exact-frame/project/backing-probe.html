@@ -1,0 +1,46 @@
+<!doctype html><meta charset="utf-8"><title>backing probe</title>
+<style>html,body{margin:0;background:#242433}canvas{display:block;width:720px;height:720px}</style>
+<canvas id="c"></canvas>
+<script>
+'use strict';
+// Part 01 probe: one drawing, written in 1080 design units, rendered into a backing store of
+// BACKING pixels. The CSS size stays 720 px whatever BACKING is. Copy this file into your work
+// folder before changing BACKING; keep this original at 1080.
+const DESIGN = 1080;
+const BACKING = 1080;
+
+const canvas = document.getElementById('c'), ctx = canvas.getContext('2d');
+canvas.width = canvas.height = BACKING;
+
+function render(t) {
+  // Every frame starts from a known context state and repaints everything.
+  ctx.setTransform(BACKING / DESIGN, 0, 0, BACKING / DESIGN, 0, 0);
+  ctx.globalAlpha = 1;
+  ctx.fillStyle = '#F2EDE3';
+  ctx.fillRect(0, 0, DESIGN, DESIGN);
+
+  // Grating: 2-unit bars on a 5-unit pitch, about the scale of the print screen in Part 02.
+  ctx.fillStyle = '#0078BF';
+  for (let x = 120; x < 480; x += 5) ctx.fillRect(x, 120, 2, 360);
+
+  // Hairlines, 3 down to 0.75 units wide.
+  ctx.strokeStyle = '#2E3192';
+  ctx.lineCap = 'round';
+  [3, 1.5, 0.75].forEach((w, i) => {
+    ctx.lineWidth = w;
+    ctx.beginPath();
+    ctx.moveTo(580, 150 + i * 120);
+    ctx.lineTo(960, 190 + i * 120);
+    ctx.stroke();
+  });
+
+  // A disc: its edge shows how finely a curve was sampled.
+  ctx.fillStyle = '#FF48B0';
+  ctx.beginPath();
+  ctx.arc(540, 780, 160, 0, Math.PI * 2);
+  ctx.fill();
+}
+
+window.__riso = { duration: 1, ready: true, seek: render };
+render(0);
+</script>
